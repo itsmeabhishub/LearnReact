@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"> 
+        <h1>Hello World</h1>
+    <button id="buttonHere">Hello Check</button>
+    </div>
+
+    <!-- <script>
+        const heading = document.createElement('h1')
+        heading.innerHTML= 'Hello world from JS'
+
+        const root = document.getElementById('root')
+        root.appendChild(heading)
+    </script> -->
+    <script>
+        const btn = document.createElement('button')
+        btn.innerHTML= 'Click Me'
+
+        btn.onclick = function(){
+            alert('Hi Button Clicked')
+        }
+        const root1 = document.getElementById('root')
+        root1.appendChild(btn)
+    </script>
+    <script>
+        const root3 = document.getElementById('buttonHere')
+        root3.onclick = function(){
+            alert('This is abhishek')
+        }
+    </script>
+</body>
+</html>
