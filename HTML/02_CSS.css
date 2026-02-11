@@ -1,0 +1,15 @@
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    min-height: 800px;
+    border: 2px solid black;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
