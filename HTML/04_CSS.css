@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    min-height: 100dvh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.grid-templete{
+display: grid;
+grid-template-columns:  200px 200px 200px 200px;
+grid-template-rows: 200px 200px 200px;
+grid-template-areas: 'box-1 box-2 box-2 box-3'
+'box-1 box-4 box-5 box-5';
+gap: 1em;
+/* align-items: center;
+justify-items: center; */
+}
+
+.grid-item{
+    background-color: blueviolet;
+    color: black;
+    font-size: 2em;
+    align-items: center;
+}
