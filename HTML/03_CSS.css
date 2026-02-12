@@ -1,16 +1,20 @@
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr ;
-    gap: 2em;
+    /* grid-template-columns: 1fr 1fr 2fr; */
+    grid-auto-columns: 300px;
+    /* grid-template-rows: 1fr 1fr 1fr ; */
+    /* gird implict row adding */
+    grid-auto-rows: 300px;
+    gap: 1em;
+    grid-auto-flow: column;
 
-    justify-items: center;
-    align-items: center;
+    /* justify-items: center;
+    align-items: center; */
 }
 .grid-test{
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
     background-color: blue;
     color: white;
     padding: 5px;
