@@ -1,0 +1,35 @@
+body{
+    display: inline;
+    height:500px;
+}
+
+.test-display{
+display: inline-block;
+font-size: 15px;
+padding: 20px;
+border: 2px solid black;
+margin: 5px;
+line-height: 80px;
+}
+
+.box-2{
+    width: 70%;
+    /* to use width we need to change display from inline to inline-block */
+}
+.button{
+    background-color: blueviolet;
+    color: black;
+    height: 50px;
+    width: 160px;
+    display: inline;
+    margin: 13px;
+    align-items: center;
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+}
