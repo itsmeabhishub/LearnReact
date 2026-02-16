@@ -12,6 +12,7 @@
     cursor: pointer;
     text-align: center;
     line-height: 150px;
+    flex: 1 1 200px;
 }
 .blue{
     background-color: aqua;
