@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+.test-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.transform{
+    height: auto;
+    width: 100%;
+    line-height: 150px;
+    cursor: pointer;
+}
+.blue{
+    background-color: aqua;
+}
+
+.translateY{
+    transform: translateY(1);
+    transition: transform 0.5s ease;
+}
+
+.transform:hover .translateY{
+    transform: translateY(1em);
+}
+
+.translateX{
+    transform: translateX(1);
+    transition: transform 0.5s ease;
+}
+
+.transform:hover .translateX{
+    transform: translateX(1em);
+}
+
+.translate{
+    transform: translate(1,1);
+    transition: transform 0.5s ease;
+}
+
+.transform:hover .translate{
+    transform: translate(1em, 1em);
+}
+
+.translateZ{
+    transform: translateZ(1px);
+    transition: transform 0.5s ease;
+}
+.transform:hover .translateZ{
+    transform: rotate3d(2,2,2,90deg) translateZ(50px);
+}
+.scale{
+    transform: scale(1,1);
+    transition: transform 0.5s ease;
+}
+
+.transform:hover .scale{
+    transform: scale(1.1,1.1);
+}
