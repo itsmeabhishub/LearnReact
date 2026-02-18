@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    justify-content: center ;
+    gap: 2em;
+}
+
+.test{
+    width: auto;
+    min-height: auto;
+    text-align: center;
+    line-height: 150px;
+}
+
+.blue{
+    background-color: aqua;
+}
