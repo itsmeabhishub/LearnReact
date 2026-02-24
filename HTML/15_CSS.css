@@ -1,0 +1,7 @@
+.button{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 68, 68);
+}
