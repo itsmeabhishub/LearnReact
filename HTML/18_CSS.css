@@ -1,0 +1,21 @@
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,300px));
+}
+
+.card{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.conatiner{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.card:hover .conatiner{
+    max-height: 200px;
+}
