@@ -1,0 +1,58 @@
+.main-conatiner{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    height: 100%;
+    padding: 15px;
+    /* position: sticky; */
+    overflow: auto;
+    /* transformed filter or prospecive can also  make element as postionted */
+    /* transform: translate(0); */
+    /* filter: invert(0); */
+    perspective: 0em;
+    
+}
+.box{
+    width: 100vw;
+    height: 433px;
+    border: 2px solid black;
+    padding: 3px;
+    margin: 3px;
+    
+}
+.box1{
+    background-color: #aa0e0e;
+    /* position: sticky;
+    top: 0;
+    height: 73px;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
+    position: absolute;
+    top: 0;
+    left: 8px;
+}
+.box2{
+    background-color: #0eaa3f;
+    /* position: relative;
+    top: 45px;
+    left: 10px;
+} */
+}
+.box3{
+    background-color: #846406;
+    /* position: absolute;
+    top: 8px;
+    left: 44px; */
+}
+.box4{
+    background-color: #3b0d96;
+    /* position: fixed;
+    bottom: 0PX;
+    height: 133PX; */
+}
+.box5{
+    background-color: #a00c6a;
+}
