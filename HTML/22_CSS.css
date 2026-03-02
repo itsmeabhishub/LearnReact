@@ -1,0 +1,25 @@
+.box{
+    height: 170px;
+    width: 170px;
+    border: 2px solid black;
+}
+#box1{
+    position: relative;
+  top: 49px;
+  background-color: rgb(32, 140, 147);  
+  z-index: 1;
+}
+#box2{
+    position: relative;
+  top: 14px;
+  background-color: rgb(20, 157, 84);  
+  /* visibility: hidden; will hide the element and space was remain their */
+  /* display: none; will hide the element and space taken by element */
+  z-index: 2;
+}
+#box3{
+  background-color: rgb(129, 18, 120);  
+}
+#box4{
+  background-color: rgb(162, 82, 16);  
+}
