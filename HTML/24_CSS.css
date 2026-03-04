@@ -1,0 +1,28 @@
+.main-container{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.box{
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+}
+
+#box1{
+    background-color: rgb(165, 42, 42);
+    position: relative;
+    bottom: -10px;
+    z-index: 1;
+}
+#box2{
+    background-color: rgb(163, 144, 20);
+    position: relative;
+    z-index: 2;
+}
+#box3{
+    background-color: rgb(41, 155, 90);
+    position: relative;
+
+}
