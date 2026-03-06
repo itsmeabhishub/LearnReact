@@ -1,0 +1,23 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#box1{
+    background-color: rgb(160, 23, 23);
+    position: relative;
+    bottom: -60px;
+    z-index: 1;
+}
+#box2{
+    background-color: rgb(126, 169, 23);
+    position: relative;
+    z-index: 2;
+}
+#box3{
+    background-color: rgb(23, 158, 160);
+}
+#box4{
+    background-color: rgb(160, 23, 155);
+}
