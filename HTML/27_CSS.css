@@ -1,0 +1,18 @@
+.main-component{
+    width:50vw;
+    height:50vh;
+    background-color:red;
+}
+.sub-component{
+    width:5vw;
+    height:5vh;
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.transform{
+    transform: translateX(50px);
+}
