@@ -1,0 +1,37 @@
+.main-component{
+    width: 50vw;
+    height: 50vh;
+    background-color: aquamarine;
+}
+
+.sub-component{
+    width: 10vw;
+    height: 10vh;
+    border: 2px solid black;
+}
+
+.box1{
+    background-color: rgb(36, 159, 11);
+    position: relative;
+    bottom: -20px;
+}
+.box2{
+    background-color: rgb(27, 27, 159);
+    position: relative;
+    z-index: 1;
+}
+.box3{
+    background-color: rgb(132, 15, 105);
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+.box4{
+    background-color: rgb(41, 8, 8);
+    position: absolute;
+    bottom: 0px;
+}
+.transation{
+    transform: translateX(10px);
+}
