@@ -16,3 +16,6 @@
 .transformY:hover{
     transform: translateY(10vw);
 }
+.scale:hover{
+    transform: scale(1.1);
+}
