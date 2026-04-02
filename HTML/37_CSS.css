@@ -1,28 +1,27 @@
 .main-component{
-   width: 50vw;
-   height: 50vh;
+   width: 100vw;
+   /* height: 100vh; */
    background-color: aqua;
 }
 
 .box{
-    width: 45px;
-    height: 45px;
+    width: 450px;
+    height: 950px;
 }
 
 #box1{
         background-color: blue;
-        position: relative;
-        top: 20px;
-        z-index: 3;
+        /* position: relative; */
+        
 }
 #box2{
     background-color: blueviolet;
-    position: relative;
-    z-index: 2;
+    position: sticky;
+    top: 1px;
+    height: 200px !important;
 }
 #box3{
     background-color: brown;
-    position: absolute;
-    top: 1px;
-    z-index: 3;
+    /* position: absolute; */
+    
 }
