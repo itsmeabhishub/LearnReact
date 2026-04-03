@@ -11,7 +11,8 @@
 
 #box1{
         background-color: blue;
-        /* position: relative; */
+        position: relative;
+        top: 200px;
         
 }
 #box2{
