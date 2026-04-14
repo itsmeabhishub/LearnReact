@@ -13,5 +13,5 @@
 }
 
 .box1:hover{
-transform: scale(2);
+transform: translateX(10vw);
 }
