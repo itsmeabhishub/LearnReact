@@ -17,5 +17,5 @@ transform: translate3d(1px, 1px, 50px) rotate3d(3, 2, 2, 45deg);
 }
 
 .box2:hover{
-    transform: scaleX(1.2);
+    transform: scaleZ(1.2)
 }
