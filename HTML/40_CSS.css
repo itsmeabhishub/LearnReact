@@ -1,0 +1,18 @@
+.main-component{
+    width: 300px;
+    height: 100%;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    font-size: 15px;
+}
+.main-component:hover .content{
+    max-height: 200px;
+}
